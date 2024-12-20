@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Cursos de Edição</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="register-header">
+            <img src="https://seeklogo.com/images/I/ifpr-instituto-federal-do-parana-icone-logo-E4B5B3D67E-seeklogo.com.png" alt="Logo Acadêmico" class="login-image">
+            <h1>Cadastro - Cursos IFPR</h1>
+        </div>
+        <form id="registerForm">
+            <div class="mb-3">
+                <label for="fullname" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="fullname" placeholder="Digite seu nome completo">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+            </div>
+            <div class="mb-3">
+                <label for="confirmPassword" class="form-label">Confirmar Senha</label>
+                <input type="password" class="form-control" id="confirmPassword" placeholder="Confirme sua senha">
+            </div>
+            <div class="mb-3">
+                <label for="workplace" class="form-label">Onde trabalha/estuda</label>
+                <input type="text" class="form-control" id="workplace" placeholder="Digite onde trabalha ou estuda">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Tipo de Usuário</label><br>
+                <input type="checkbox" id="professor" class="me-2"> Professor
+                <input type="checkbox" id="aluno" class="me-2"> Aluno
+                <input type="checkbox" id="servidor" class="me-2"> Servidor
+                <input type="checkbox" id="outros" class="me-2"> Outros
+            </div>
+            <button type="submit" id="registerButton" class="btn btn-primary w-100">Cadastrar</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -60,3 +60,76 @@ body {
 .register-link a:hover {
     text-decoration: underline;
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 0;
+    margin: 0;
+}
+
+.register-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.register-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.register-header img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+.form-label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input.form-control {
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+button {
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button:active {
+    background-color: #0056b3;
+}
+
+.register-container input[type="checkbox"] {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.register-container .form-label {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .register-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
